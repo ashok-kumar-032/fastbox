@@ -1,13 +1,130 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap');
+
+:root {
+  --fs-90: 90px;
+  --fs-80: 80px;
+  --fs-48: 48px;
+  --fs-45: 45px;
+  --fs-30: 30px;
+  --fs-25: 25px;
+  --fs-22: 22px;
+  --fs-20: 20px;
+  --fs-18: 18px;
+  --fs-16: 16px;
+
+
+  --color-clr_dark_green: #204945;
+  --color-bg_light_green: #E3F9E7;
+  --color-clr_white: #FFFFFF;
+  --color-clr_grey: #777E90;
+  --color-bg_green: #3CBD96;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.clr_dark_green {
+  color: var(--color-clr_dark_green) !important;
+}
+
+.bg_light_green {
+  color: var(--color-bg_light_green) !important;
+}
+
+.clr_white {
+  color: var(--color-clr_white) !important;
+}
+
+.clr_grey {
+  color: var(--color-clr_grey) !important;
+}
+
+.bg_green {
+  background-color: var(--color-bg_green) !important;
+}
+
+
+/* font_size */
+
+.fs_90 {
+  font-size: var(--fs-90);
+}
+
+.fs_80 {
+  font-size: var(--fs-80);
+}
+
+.fs_48 {
+  font-size: var(--fs-48);
+}
+
+.fs_45 {
+  font-size: var(--fs-45);
+}
+
+.fs_30 {
+  font-size: var(--fs-30);
+}
+
+.fs_25 {
+  font-size: var(--fs-25);
+}
+
+.fs_22 {
+  font-size: var(--fs-22);
+}
+
+.fs_20 {
+  font-size: var(--fs-20);
+}
+
+.fs_18 {
+  font-size: var(--fs-18);
+}
+
+.fs_16 {
+  font-size: var(--fs-16);
+}
+
+
+/* font-weight */
+.fw_400 {
+  font-weight: 400;
+}
+
+.fw_500 {
+  font-weight: 500;
+}
+
+.fw_700 {
+  font-weight: 700;
+}
+
+/* font-family*/
+.ff_Anybody {
+  font-family: 'Anybody', sans-serif;
+}
+
+.ff_Red-Hat-Text {
+  font-family: 'Red+Hat+Text', sans-serif;
+}
+
+.ff_Red-Hat-Display {
+  font-family: 'Red+Hat+Display', sans-serif;
+}
+
+
+@media (min-width:768px) {
+
+  :root {
+    --fs-90: 90px;
+    --fs-80: 80px;
+    --fs-48: 48px;
+    --fs-45: 45px;
+    --fs-30: 30px;
+    --fs-25: 25px;
+    --fs-22: 22px;
+    --fs-20: 20px;
+    --fs-18: 18px;
+    --fs-16: 16px;
+  }
 }
