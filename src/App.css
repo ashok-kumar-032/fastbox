@@ -50,6 +50,23 @@ ul {
   transform: scale(1.1);
 }
 
+/*  */
+.max_w_490 {
+  max-width: 490px;
+}
+
+.max_w_295 {
+  width: 295px;
+}
+
+
+/* Our */
+.box {
+  background: #FFFFFF;
+  box-shadow: 0px -1px 15px rgba(60, 189, 150, 0.15);
+  border-radius: 20px;
+}
+
 /* hover */
 
 .hover_line::after {
@@ -76,6 +93,13 @@ ul {
 }
 
 
+@media (min-width:1400px) {
+  .border_line {
+    border-right: 2px dashed rgba(151, 87, 215, 0.4);
+    height: 250px;
+  }
+
+}
 
 @media (min-width:1200px) {
   .ms-lg_5 {
