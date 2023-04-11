@@ -50,7 +50,7 @@ ul {
   transform: scale(1.1);
 }
 
-/*  */
+/* HowFast */
 .max_w_490 {
   max-width: 490px;
 }
@@ -65,6 +65,15 @@ ul {
   background: #FFFFFF;
   box-shadow: 0px -1px 15px rgba(60, 189, 150, 0.15);
   border-radius: 20px;
+}
+
+/*  */
+.Learn_btn {
+  background: #3CBD96;
+  box-shadow: 0px 4px 0px rgba(60, 189, 150, 0.25);
+  border-radius: 10px;
+  padding: 13px 27px;
+
 }
 
 /* hover */
