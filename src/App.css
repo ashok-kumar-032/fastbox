@@ -75,6 +75,20 @@ ul {
   color: #000000 !important;
 }
 
+/* hero section */
+.input_box {
+  height: 75px;
+  padding-left: 20px;
+  border-radius: 10px;
+  width: 561px;
+}
+
+.checkbutton {
+  background: #3CBD96;
+  box-shadow: 0px 4px 4px rgba(60, 189, 150, 0.25);
+  border-radius: 10px;
+  padding: 20px 55px;
+}
 
 
 @media (min-width:1200px) {

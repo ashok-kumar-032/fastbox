@@ -20,6 +20,11 @@
   --color-clr_white: #FFFFFF;
   --color-clr_grey: #777E90;
   --color-bg_green: #3CBD96;
+  --color-light_green: #E2F5EF;
+}
+
+.bg_light_green {
+  background-color: var(--color-light_green);
 }
 
 .clr_dark_green {
@@ -116,11 +121,27 @@
 @media (min-width:768px) {
 
   :root {
-    --fs-90: 90px;
+    --fs-90: 50px;
     --fs-80: 80px;
     --fs-48: 48px;
     --fs-45: 45px;
-    --fs-30: 30px;
+    --fs-30: 25px;
+    --fs-25: 25px;
+    --fs-22: 22px;
+    --fs-20: 20px;
+    --fs-18: 18px;
+    --fs-16: 16px;
+  }
+}
+
+@media (min-width:992px) {
+
+  :root {
+    --fs-90: 50px;
+    --fs-80: 80px;
+    --fs-48: 48px;
+    --fs-45: 45px;
+    --fs-30: 25px;
     --fs-25: 25px;
     --fs-22: 22px;
     --fs-20: 20px;
