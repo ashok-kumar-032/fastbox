@@ -6,8 +6,10 @@ const WeHave = () => {
     return (
         <Container className='py-5 mt-5'>
             <Row>
-                <Col xl={5} xs={12}>
-                    <img className='w-100 p-3 ' src={ven} alt="" />
+                <Col xl={5} xs={12} className='van_hover  overflow-hidden position-relative'>
+                    <img className='w-100 p-3 van_img effect' src={ven} alt="" />
+                    <img className='w-100 p-3 image_2 effect position-absolute' src={ven} alt="" />
+
                 </Col>
                 <Col xl={7} xs={12} className='d-flex flex-column align-items-center align-items-xl-start text-center text-xl-start'>
                     <p className='fw_700 fs_45 ff_Anybody clr_dark_green'>We Have the largest Network</p>
