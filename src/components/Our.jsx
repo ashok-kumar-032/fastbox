@@ -37,12 +37,12 @@ const Our = () => {
         ]
     };
     return (
-        <Container className='py-5 overflow-hidden'>
+        <Container className='py-5'>
             <div className='d-flex align-items-center justify-content-center flex-column flex-lg-row text-center text-lg-start '>
-                <p className='fw_700 fs_48 ff_Anybody  clr_dark_green p-lg-5 ms-lg-5'>Our Specialties</p>
+                <p className='fw_700 fs_48 ff_Anybody clr_dark_green p-lg-5 ms-lg-5'>Our Specialties</p>
                 <p className='fw_400 fs_22 ff_Red_Hat_Text clr_grey max_w_490'>Duis aute irure dolor in reprehenderit in voluptate cillum dolore eu fugiat nulla pariatur.</p>
             </div>
-            <Slider {...settings} className='mt-5 pt-5 '>
+            <Slider {...settings} className='mt-4 '>
                 {/* 1 */}
                 <div className='p-3'>
                     <div className='d-flex justify-content-between p-4 box'>

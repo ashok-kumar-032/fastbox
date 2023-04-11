@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Mynav from './components/Mynav';
 import { Hero } from './components/Hero';
 import Howfast from './components/Howfast';
+import WeHave from './components/WeHave';
 import Our from './components/Our';
 import { Imagesection } from './components/Imagesection';
 import { Calculate } from './components/Calculate';
@@ -17,6 +18,7 @@ function App() {
       {/* <Hero /> */}
       <Imagesection />
       <Howfast />
+      <WeHave />
       <Our />
       <Calculate />
     </div>
