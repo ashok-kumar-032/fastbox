@@ -23,11 +23,16 @@
   --color-bg_green: #3CBD96;
   --color-light_green: #E2F5EF;
   --color-clr_l_green: #C1EADD;
+  --color-light_black: #23262F;
 }
 
 .bg_light_green {
   background-color: var(--color-light_green);
 
+}
+
+.clr_light_black {
+  color: var(--color-light_black);
 }
 
 .clr_dark_green {

@@ -9,7 +9,7 @@ import git from '../assets/gitlab6.png'
 export const Imagesection = () => {
     return (
         <div className=' bg_light_green py-5'>
-            <Container>
+            <Container className=''>
                 <Row className=' align-items-center justify-content-center'>
                     <Col lg={2} md={3} sm={4} xs={6} className=' pt-sm-0 pt-4 d-flex justify-content-center'><img src={Airable} className='w-75' /></Col>
                     <Col lg={2} md={3} sm={4} xs={6} className=' pt-sm-0 pt-4 d-flex justify-content-center'><img src={sketch} className='w-75' /></Col>

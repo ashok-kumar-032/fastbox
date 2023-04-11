@@ -41,7 +41,7 @@ const Howfast = () => {
         ]
     };
     return (
-        <Container>
+        <Container className=' overflow-hidden'>
             <div className='d-flex align-items-center justify-content-center flex-column flex-lg-row text-center text-lg-start '>
                 <p className='fw_700 fs_48 ff_Anybody  clr_dark_green p-lg-5 ms-lg-5'>How Fast box works</p>
                 <p className='fw_400 fs_22 ff_Red_Hat_Text clr_grey max_w_490'>Duis aute irure dolor in reprehenderit in voluptate cillum dolore eu fugiat nulla pariatur.</p>

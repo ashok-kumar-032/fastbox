@@ -7,16 +7,18 @@ import { Hero } from './components/Hero';
 import Howfast from './components/Howfast';
 import Our from './components/Our';
 import { Imagesection } from './components/Imagesection';
+import { Calculate } from './components/Calculate';
 
 
 function App() {
   return (
     <div>
       <Mynav />
-      <Hero />
+      {/* <Hero /> */}
       <Imagesection />
       <Howfast />
       <Our />
+      <Calculate />
     </div>
   );
 }
