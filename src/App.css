@@ -168,6 +168,50 @@ ul {
   padding: 20px 55px;
 }
 
+/* calculate box */
+.date_box {
+  height: 50px;
+  width: 50px;
+  border-radius: 3px;
+}
+
+.input_border_bottom {
+  border-bottom: 1px solid rgba(119, 126, 144, 0.3);
+}
+
+input {
+  outline: none !important;
+
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.date_hover:hover {
+  background-color: #ffffff !important;
+}
+.date_hover:hover svg path {
+  fill: #3CBD96;
+}
+
+.active_border_none {
+  outline: none;
+}
+
+.select:focus-visible {
+  outline-offset: none !important;
+}
+
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.calculate_btn {
+  padding: 11px 32px;
+  border-radius: 10px;
+}
+
 @media (min-width:1400px) {
   .border_line {
     border-right: 2px dashed rgba(151, 87, 215, 0.4);
@@ -189,10 +233,21 @@ ul {
   .ms-lg_5 {
     margin-left: 100px;
   }
+
+  .position_absolute_xl {
+    position: absolute;
+  }
 }
 
 @media (max-width:1200px) {
 
+  .w_xl_75 {
+    width: 75%;
+  }
+
+  .bg_light_green_xl {
+    background: var(--color-bg_light_green);
+  }
 
   .dis_xsm_none {
     display: none;
