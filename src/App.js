@@ -6,6 +6,7 @@ import Mynav from './components/Mynav';
 import { Hero } from './components/Hero';
 import Howfast from './components/Howfast';
 import Our from './components/Our';
+import { Imagesection } from './components/Imagesection';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div>
       <Mynav />
       <Hero />
+      <Imagesection />
       <Howfast />
       <Our />
     </div>
