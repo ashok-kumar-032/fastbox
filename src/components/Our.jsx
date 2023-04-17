@@ -37,6 +37,7 @@ const Our = () => {
         ]
     };
     return (
+        <section className=' py-5'>
         <Container className='py-5'>
             <div className='d-flex align-items-center justify-content-center flex-column flex-lg-row text-center text-lg-start '>
                 <p className='fw_700 fs_48 ff_Anybody clr_dark_green p-lg-5 ms-lg-5'>Our Specialties</p>
@@ -70,6 +71,7 @@ const Our = () => {
 
             </Slider>
         </Container>
+        </section>
     )
 }
 

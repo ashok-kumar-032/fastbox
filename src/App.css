@@ -58,7 +58,14 @@ ul {
 .max_w_295 {
   width: 295px;
 }
-
+.star_red{
+  left: 30px;
+  bottom: 0;
+}
+.star_green{
+  right: 70px;
+  top: 110px;
+}
 
 /* Our */
 .box {
@@ -75,9 +82,20 @@ ul {
   padding: 13px 27px;
 
 }
+.ven_1{
+  left:0;
+  top: 20px;
+  height: 550px;
+}
+.ven_2{
+  right: 0;
+  top:-230px;
+  height: 700px;
+  width: 230px;
+  z-index: -1;
+}
 
-
-/* .van_hover:hover .van_img{
+.van_hover:hover .van_img{
   transform: translatex(150%) !important;
 
 }
@@ -86,7 +104,13 @@ ul {
 }
 .van_hover:hover .image_2 {
   left: 0 !important;
-} */
+}
+/* Follow */
+.star_follow{
+  top: -60px;
+  left: 90px;
+
+}
 
 /* Footer */
 .name {
@@ -113,7 +137,11 @@ ul {
   fill: #3CBD96;
 
 }
-
+.footer_img{
+  bottom: 0;
+  height: 300px;
+  width: 750px;
+}
 /* hover */
 
 .hover_line::after {

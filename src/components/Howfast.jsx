@@ -4,6 +4,8 @@ import slike_img from '../assets/slike_img.png'
 import slike_img_1 from '../assets/slike_img_1.png'
 import slike_img_2 from '../assets/slike_img_2.png'
 import slike_img_3 from '../assets/slike_img_3.png'
+import Howfest_back_star from '../assets/Howfest_back_star.png'
+import Howfest_back from '../assets/Howfest_back.png'
 import { Container, Row, Col } from 'react-bootstrap';
 const Howfast = () => {
 
@@ -41,42 +43,48 @@ const Howfast = () => {
         ]
     };
     return (
-        <Container>
-            <div className='d-flex align-items-center justify-content-center flex-column flex-lg-row text-center text-lg-start '>
-                <p className='fw_700 fs_48 ff_Anybody  clr_dark_green p-lg-5 ms-lg-5'>How Fast box works</p>
-                <p className='fw_400 fs_22 ff_Red_Hat_Text clr_grey max_w_490'>Duis aute irure dolor in reprehenderit in voluptate cillum dolore eu fugiat nulla pariatur.</p>
-            </div>
-            <Slider {...settings} className='pt-5'>
-                {/* 1 */}
-                <div className='d-flex align-items-center flex-column text-center border_line'>
-                    <img src={slike_img} alt="" />
-                    <p className='fw_600 fs_16 ff_Poppins clr_grey mt-4'>Step 1</p>
-                    <p className='fw_700 fs_22 ff_Anybody clr_dark_green mt-4'>Booking </p>
-                    <p className='max_w_295 fw_400 fs_18 ff_Red_Hat_Text clr_grey'>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <section className=' position-relative py-5'>
+            <span><img className=' position-absolute star_red d-none d-xl-block' src={Howfest_back_star} alt="" /></span>
+            <span><img className=' position-absolute star_green d-none d-xl-block' src={Howfest_back} alt="" /></span>
+
+            <Container>
+
+                <div className='d-flex align-items-center justify-content-center flex-column flex-lg-row text-center text-lg-start'>
+                    <p className='fw_700 fs_48 ff_Anybody  clr_dark_green p-lg-5 ms-lg-5'>How Fast box works</p>
+                    <p className='fw_400 fs_22 ff_Red_Hat_Text clr_grey max_w_490'>Duis aute irure dolor in reprehenderit in voluptate cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
-                {/* 2 */}
-                <div className='d-flex align-items-center flex-column text-center border_line'>
-                    <img src={slike_img_1} alt="" />
-                    <p className='fw_600 fs_16 ff_Poppins clr_grey mt-4'>Step 2</p>
-                    <p className='fw_700 fs_22 ff_Anybody clr_dark_green mt-4'>Packing  </p>
-                    <p className='max_w_295 fw_400 fs_18 ff_Red_Hat_Text clr_grey'>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                </div>
-                {/* 3 */}
-                <div className='d-flex align-items-center flex-column text-center border_line'>
-                    <img src={slike_img_2} alt="" />
-                    <p className='fw_600 fs_16 ff_Poppins clr_grey mt-4'>Step 3</p>
-                    <p className='fw_700 fs_22 ff_Anybody clr_dark_green mt-4'>Transportation  </p>
-                    <p className='max_w_295 fw_400 fs_18 ff_Red_Hat_Text clr_grey'>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                </div>
-                {/* 4 */}
-                <div className='d-flex align-items-center flex-column text-center'>
-                    <img src={slike_img_3} alt="" />
-                    <p className='fw_600 fs_16 ff_Poppins clr_grey mt-4'>Step 4</p>
-                    <p className='fw_700 fs_22 ff_Anybody clr_dark_green mt-4'>Delivery  </p>
-                    <p className='max_w_295 fw_400 fs_18 ff_Red_Hat_Text clr_grey'>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                </div>
-            </Slider>
-        </Container>
+                <Slider {...settings} className='pt-5'>
+                    {/* 1 */}
+                    <div className='d-flex align-items-center flex-column text-center border_line'>
+                        <img src={slike_img} alt="" />
+                        <p className='fw_600 fs_16 ff_Poppins clr_grey mt-4'>Step 1</p>
+                        <p className='fw_700 fs_22 ff_Anybody clr_dark_green mt-4'>Booking </p>
+                        <p className='max_w_295 fw_400 fs_18 ff_Red_Hat_Text clr_grey'>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    {/* 2 */}
+                    <div className='d-flex align-items-center flex-column text-center border_line'>
+                        <img src={slike_img_1} alt="" />
+                        <p className='fw_600 fs_16 ff_Poppins clr_grey mt-4'>Step 2</p>
+                        <p className='fw_700 fs_22 ff_Anybody clr_dark_green mt-4'>Packing  </p>
+                        <p className='max_w_295 fw_400 fs_18 ff_Red_Hat_Text clr_grey'>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    {/* 3 */}
+                    <div className='d-flex align-items-center flex-column text-center border_line'>
+                        <img src={slike_img_2} alt="" />
+                        <p className='fw_600 fs_16 ff_Poppins clr_grey mt-4'>Step 3</p>
+                        <p className='fw_700 fs_22 ff_Anybody clr_dark_green mt-4'>Transportation  </p>
+                        <p className='max_w_295 fw_400 fs_18 ff_Red_Hat_Text clr_grey'>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    {/* 4 */}
+                    <div className='d-flex align-items-center flex-column text-center'>
+                        <img src={slike_img_3} alt="" />
+                        <p className='fw_600 fs_16 ff_Poppins clr_grey mt-4'>Step 4</p>
+                        <p className='fw_700 fs_22 ff_Anybody clr_dark_green mt-4'>Delivery  </p>
+                        <p className='max_w_295 fw_400 fs_18 ff_Red_Hat_Text clr_grey'>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </Slider>
+            </Container>
+        </section>
     )
 }
 

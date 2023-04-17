@@ -1,10 +1,13 @@
 import React from 'react'
 import map from '../assets/map.png'
+import Howfest_back from '../assets/Howfest_back.png'
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Follow = () => {
     return (
-        <div className='py-5 position-relative'>
+        <section className='py-5 position-relative'>
+            <span><img className=' position-absolute star_follow d-none d-xl-block' src={Howfest_back} alt="" /></span>
+
             <Container>
                 <Row>
                     <Col lg={6} xs={12} className='d-flex flex-column align-items-center align-items-xl-start text-center text-xl-start'>
@@ -17,7 +20,8 @@ const Follow = () => {
                         <img className='W_100 position-absolute' src={map} alt="" />
                     </Col>
                 </Row>
-            </Container></div>
+            </Container>
+        </section>
     )
 }
 
