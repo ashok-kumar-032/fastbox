@@ -8,9 +8,34 @@ import Howfast from './components/Howfast';
 import WeHave from './components/WeHave';
 import Our from './components/Our';
 import { Imagesection } from './components/Imagesection';
+import Follow from './components/Follow';
+import Footer from './components/Footer';
+import Scroll from './components/Scroll_btn';
+import { useEffect, useState } from "react";
 
 
 function App() {
+  // The back-to-top button is hidden at the beginning
+  const [showButon, setShowButton] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 300) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    });
+  }, []);
+
+  // This function will scroll the window to the top 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top:0,
+      behavior: 'smooth' // for smoothly scrolling
+    });
+  };
+
   return (
     <div>
       <Mynav />
@@ -19,7 +44,14 @@ function App() {
       <Howfast />
       <WeHave />
       <Our />
+      <Follow />
+      <Footer />
+      <Scroll />
+      <button onClick={scrollToTop} className="back-to-top">
+        &#8679;
+      </button>
     </div>
+
   );
 }
 
