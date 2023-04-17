@@ -139,6 +139,7 @@ input {
 .date_hover:hover {
   background-color: #ffffff !important;
 }
+
 .date_hover:hover svg path {
   fill: #3CBD96;
 }
@@ -158,6 +159,20 @@ input {
 .calculate_btn {
   padding: 11px 32px;
   border-radius: 10px;
+}
+
+/* what section */
+.adam {
+  background: linear-gradient(90deg, #E3F9E7 0%, rgba(227, 249, 231, 0) 100%);
+  border-radius: 15px;
+}
+
+/* .show {
+
+} */
+
+.show_box:hover .show {
+  opacity: 1 !important;
 }
 
 @media (min-width:1400px) {

@@ -9,18 +9,20 @@ import WeHave from './components/WeHave';
 import Our from './components/Our';
 import { Imagesection } from './components/Imagesection';
 import { Calculate } from './components/Calculate';
+import { Whatsection } from './components/Whatsection';
 
 
 function App() {
   return (
     <div>
       <Mynav />
-      {/* <Hero /> */}
+      <Hero />
       <Imagesection />
       <Howfast />
       <WeHave />
       <Our />
       <Calculate />
+      <Whatsection />
     </div>
   );
 }
