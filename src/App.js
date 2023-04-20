@@ -12,6 +12,7 @@ import Follow from './components/Follow';
 import Footer from './components/Footer';
 import Scroll from './components/Scroll_btn';
 import { useEffect, useState } from "react";
+import Newnav from './components/Newnav';
 
 
 function App() {
@@ -31,25 +32,26 @@ function App() {
   // This function will scroll the window to the top 
   const scrollToTop = () => {
     window.scrollTo({
-      top:0,
+      top: 0,
       behavior: 'smooth' // for smoothly scrolling
     });
   };
 
   return (
     <div>
-      <Mynav />
-      {/* <Hero /> */}
-      <Imagesection />
-      <Howfast />
-      <WeHave />
-      <Our />
-      <Follow />
-      <Footer />
-      <Scroll />
-      <button onClick={scrollToTop} className="back-to-top">
+      <Mynav /> 
+      <Hero />  
+      <Imagesection />  
+      <Howfast /> 
+      <WeHave />  
+      <Our /> 
+      <Follow />  
+      <Footer />  
+      <Scroll />  
+      {/* <Newnav /> */}
+      {/* <button onClick={scrollToTop} className="back-to-top">
         &#8679;
-      </button>
+      </button> */}
     </div>
 
   );

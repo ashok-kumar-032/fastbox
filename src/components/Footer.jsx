@@ -5,11 +5,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <section className=' position-relative py-5'>
+        <section className=' position-relative pt-5'>
             <span><img className=' position-absolute footer_img d-none d-xl-block' src={footer_back} alt="" /></span>
 
 
-            <Container className='py-5'>
+            <Container className='pt-5'>
                 <Row>
                     <Col lg={4} xs={12} className='border_footer '>
                         <div className='d-flex  flex-column '>

@@ -46,7 +46,7 @@ const Our = () => {
             <Slider {...settings} className='mt-4 '>
                 {/* 1 */}
                 <div className='p-3'>
-                    <div className='d-flex justify-content-between p-4 box'>
+                    <div className='d-flex justify-content-between p-4 px-5 box'>
                         <p className='fw_700 fs_45 ff_Poppins clr_l_green mt-4'>01</p>
                         <div className='p-2 ps-3'>
                             <p className='fw_700 fs_22 ff_Anybody  mt-4'>Easy to order</p>
@@ -54,7 +54,7 @@ const Our = () => {
                 </div>
                 {/* 2 */}
                 <div className='p-3'>
-                    <div className='d-flex justify-content-between p-4 box'>
+                    <div className='d-flex justify-content-between p-4 px-5 box'>
                         <p className='fw_700 fs_45 ff_Poppins clr_l_green mt-4'>02</p>
                         <div className='p-2 ps-3'>
                             <p className='fw_700 fs_22 ff_Anybody  mt-4'>Cash on delivery</p>
@@ -62,7 +62,7 @@ const Our = () => {
                 </div>
                 {/* 3 */}
                 <div className='p-3'>
-                    <div className='d-flex justify-content-between p-4 box'>
+                    <div className='d-flex justify-content-between p-4 px-5 box'>
                         <p className='fw_700 fs_45 ff_Poppins clr_l_green mt-4'>03</p>
                         <div className='p-2 ps-3'>
                             <p className='fw_700 fs_22 ff_Anybody  mt-4'>Live tracking</p>
