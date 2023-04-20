@@ -8,7 +8,6 @@ const Mynav = () => {
                 <div className='d-flex align-items-center'>
                     <a href="#"><img className='navlogo effect w-100  position-relative' src={navlogo} alt="navlogo" />
                     </a>
-                    <p className='fw_700 fs_15 ff_Poppins clr_white mb-0 ms-2'>salon</p>
                 </div>
                 <input type="checkbox" id="check" className="dis_none" />
                 <label htmlFor="check" className="dis_none  dis_xsm_block">
