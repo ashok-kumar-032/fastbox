@@ -39,6 +39,7 @@ function App() {
 
   return (
     <div>
+<<<<<<< HEAD
       <Mynav /> 
       <Hero />  
       <Imagesection />  
@@ -50,6 +51,19 @@ function App() {
       <Scroll />  
       {/* <Newnav /> */}
       {/* <button onClick={scrollToTop} className="back-to-top">
+=======
+      <Mynav />
+      <Hero />
+      <Imagesection />
+      <Howfast />
+      <WeHave />
+      <Our />
+      {/* <Whatsection /> */}
+      <Follow />
+      <Footer />
+      <Scroll />
+      <button onClick={scrollToTop} className="back-to-top">
+>>>>>>> 2ce46426f0c4781e7a9822a113c23ea2994cdfc6
         &#8679;
       </button> */}
     </div>
