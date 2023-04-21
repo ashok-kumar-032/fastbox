@@ -41,3 +41,4 @@ export const Whatsection = () => {
         </Container>
     )
 }
+export default Whatsection

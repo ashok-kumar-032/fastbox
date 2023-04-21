@@ -4,10 +4,10 @@ import cycle from '../assets/cycle.png'
 import dot from '../assets/section_1_dot.png'
 export const Hero = () => {
   return (
-    <div className=''>
-      <Container className=' position-relative'>
+    <div className='py-5'>
+      <Container className=' position-relative py-5'>
         <Row className='vh-100 align-items-center'>
-          <Col lg={7}>
+          <Col lg={8}>
             <p className='mb-0 clr_dark_green ff_Anybody fw_700 fs_90'>Largest and reliable courier service <br /> in your city </p>
             <p className='mb-0 pb-5 pt-5 ff_Red-Hat-Text fw_400 fs_25 clr_grey'>Duis aute irure dolor in reprehenderit in voluptate cillum dolore <br /> eu fugiat nulla pariatur.</p>
             <div className='d-inline-block input_box bg_light_green d-flex align-items-center justify-content-between'>
@@ -16,8 +16,8 @@ export const Hero = () => {
             </div>
           </Col>
           <img className=' position-absolute end-0 top-0' src={dot} />
-          <Col lg={4} className=' position-relative'>
-            <img className=' position-absolute' src={cycle} />
+          <Col lg={4} className=' position-re lative'>
+            <img className=' w-100 position-absolute  top-0' src={cycle} />
           </Col>
         </Row>
       </Container>

@@ -9,6 +9,7 @@ import WeHave from './components/WeHave';
 import Our from './components/Our';
 import { Imagesection } from './components/Imagesection';
 import Follow from './components/Follow';
+import Whatsection from './components/Whatsection';
 import Footer from './components/Footer';
 import Scroll from './components/Scroll_btn';
 import { useEffect, useState } from "react";
@@ -39,33 +40,19 @@ function App() {
 
   return (
     <div>
-<<<<<<< HEAD
-      <Mynav /> 
-      <Hero />  
-      <Imagesection />  
-      <Howfast /> 
-      <WeHave />  
-      <Our /> 
-      <Follow />  
-      <Footer />  
-      <Scroll />  
-      {/* <Newnav /> */}
-      {/* <button onClick={scrollToTop} className="back-to-top">
-=======
       <Mynav />
       <Hero />
       <Imagesection />
       <Howfast />
       <WeHave />
       <Our />
-      {/* <Whatsection /> */}
+       <Whatsection />
       <Follow />
       <Footer />
       <Scroll />
       <button onClick={scrollToTop} className="back-to-top">
->>>>>>> 2ce46426f0c4781e7a9822a113c23ea2994cdfc6
         &#8679;
-      </button> */}
+      </button> */
     </div>
 
   );
